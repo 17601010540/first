@@ -1,0 +1,135 @@
+[ 2018-08-27T12:00:43+08:00 ] ::1 /tp3.2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-27T12:01:02+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-27T12:01:20+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE standing.objectFK = '854008' AND standing.object = 'tournament_stage' AND language.object = 'standing_type' LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-27T12:01:27+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE standing.objectFK = '854008' AND standing.object = 'tournament_stage' AND language.object = 'standing_type' LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-27T12:01:35+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0110s ]
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE `id` = 'false' LIMIT 1  
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE `id` = 'false' LIMIT 1  
+
+[ 2018-08-27T12:02:12+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE standing.objectFK = '854008' AND standing.object = 'tournament_stage' AND language.object = 'standing_type'  [ RunTime:13.4578s ]
+
+[ 2018-08-27T12:02:12+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0210s ]
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE `id` = 'false' 
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE `id` = 'false' 
+
+[ 2018-08-27T12:02:12+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-27T12:02:19+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0100s ]
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE `id` = 'false' 
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE `id` = 'false' 
+
+[ 2018-08-27T12:02:38+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE standing.objectFK = '854008' AND standing.object = 'tournament_stage' AND language.object = 'standing_type'  [ RunTime:12.6437s ]
+
+[ 2018-08-27T12:02:38+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE standing.objectFK = '854008' AND standing.object = 'tournament_stage' AND language.object = 'standing_type' LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

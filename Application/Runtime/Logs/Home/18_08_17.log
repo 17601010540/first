@@ -1,0 +1,1080 @@
+[ 2018-08-17T09:53:30+08:00 ] ::1 /tp3.2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T09:53:35+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0120s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants on event_participants.eventFK = event.id  WHERE event.id = '9427'  [ RunTime:0.0100s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\tp3.2\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T09:54:06+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE sport.id = '1'  [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T09:54:41+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE sport.id = '1' AND tournament.id = '76'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T10:03:00+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT tournament.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE sport.id = '1' AND tournament.id = '76'  [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-08-17T10:03:07+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0110s ]
+SQL: SELECT tournament.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE sport.id = '1'  [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T10:23:25+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT tournament.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE sport.id = '1'  [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T10:37:14+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT sta.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id  WHERE sport.id = '1'  [ RunTime:0.4790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T10:37:55+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT sta.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id  WHERE sport.id = '1' AND tournament.id = '76'  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T10:45:58+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id  WHERE sport.id = '1' AND tournament.id = '76'  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T10:45:59+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id  WHERE sport.id = '1' AND tournament.id = '76'  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T10:46:24+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0120s ]
+SQL: SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id  WHERE sport.id = '1'  [ RunTime:19.3411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T10:48:36+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0110s ]
+SQL: SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id  WHERE sport.id = '1' AND sta.tournamentFK = '76'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T10:56:44+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT sta.tournamentFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id  WHERE sport.id = '1'  [ RunTime:5.8653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-08-17T10:57:23+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id  WHERE sport.id = '1' AND sta.tournamentFK = '77'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-08-17T11:00:52+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'par.name' in 'field list'
+ [ SQL语句 ] : SELECT par.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+ERR: 1054:Unknown column 'par.name' in 'field list'
+ [ SQL语句 ] : SELECT par.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+
+[ 2018-08-17T11:01:00+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'event_participants.name' in 'field list'
+ [ SQL语句 ] : SELECT event_participants.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+ERR: 1054:Unknown column 'event_participants.name' in 'field list'
+ [ SQL语句 ] : SELECT event_participants.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+
+[ 2018-08-17T11:02:59+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77'  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-08-17T11:03:12+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'par.name' in 'field list'
+ [ SQL语句 ] : SELECT par.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+ERR: 1054:Unknown column 'par.name' in 'field list'
+ [ SQL语句 ] : SELECT par.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+
+[ 2018-08-17T11:03:30+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'event_participants.name' in 'field list'
+ [ SQL语句 ] : SELECT event_participants.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+ERR: 1054:Unknown column 'event_participants.name' in 'field list'
+ [ SQL语句 ] : SELECT event_participants.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+
+[ 2018-08-17T11:03:31+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0130s ]
+ERR: 1054:Unknown column 'event_participants.name' in 'field list'
+ [ SQL语句 ] : SELECT event_participants.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+ERR: 1054:Unknown column 'event_participants.name' in 'field list'
+ [ SQL语句 ] : SELECT event_participants.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+
+[ 2018-08-17T11:03:31+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0150s ]
+ERR: 1054:Unknown column 'event_participants.name' in 'field list'
+ [ SQL语句 ] : SELECT event_participants.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+ERR: 1054:Unknown column 'event_participants.name' in 'field list'
+ [ SQL语句 ] : SELECT event_participants.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77' 
+
+[ 2018-08-17T11:04:13+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT par.number FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77'  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T11:04:29+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT par.number FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1'  [ RunTime:6.0173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T11:04:40+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0140s ]
+SQL: SELECT par.number FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1'  [ RunTime:9.8976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T11:05:21+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0110s ]
+SQL: SELECT par.eventFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1'  [ RunTime:11.7617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T11:07:43+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:08:10+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0130s ]
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:19+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:20+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:20+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:20+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:22+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:35+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0150s ]
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:36+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:37+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0290s ]
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:09:37+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0310s ]
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and par.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:10:31+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants as part on part.participantFK  WH' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants as part on part.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants as part on part.participantFK  WH' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants as part on part.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:10:32+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants as part on part.participantFK  WH' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants as part on part.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants as part on part.participantFK  WH' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants as part on part.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:10:33+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants as part on part.participantFK  WH' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants as part on part.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants as part on part.participantFK  WH' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants as part on part.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:10:57+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0120s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:10:58+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:10:58+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0110s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:10:58+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id and  INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:11:56+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.name' in 'field list'
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:12:18+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:12:18+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:12:19+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+ERR: 1054:Unknown column 'participant.id' in 'on clause'
+ [ SQL语句 ] : SELECT event.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN event_participants as part on part.participantFK = participant.id  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:13:03+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.participantFK  WHERE sport.id = '1'' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.participantFK  WHERE sport.id = '1'' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:13:04+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.participantFK  WHERE sport.id = '1'' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.participantFK  WHERE sport.id = '1'' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:13:05+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.participantFK  WHERE sport.id = '1'' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.participantFK  WHERE sport.id = '1'' at line 1
+ [ SQL语句 ] : SELECT participant.name FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id INNER JOIN participant.id = event_participants.participantFK  WHERE sport.id = '1' 
+
+[ 2018-08-17T11:18:27+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT par.eventFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1'  [ RunTime:12.4607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T11:18:38+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT par.eventFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1'  [ RunTime:10.7766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-08-17T11:18:46+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT par.eventFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '77'  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T11:19:20+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0140s ]
+SQL: SELECT par.eventFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1'  [ RunTime:10.7796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T11:19:57+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT sta.tournamentFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND par.eventFK = '2252011'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T11:20:23+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT par.eventFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '10417'  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T11:20:24+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT par.eventFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND sta.tournamentFK = '10417'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T11:49:22+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+
+[ 2018-08-17T11:49:23+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+
+[ 2018-08-17T11:49:24+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+
+[ 2018-08-17T11:49:24+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+
+[ 2018-08-17T11:49:24+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+
+[ 2018-08-17T11:49:40+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT sta.tournamentFK FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND par.eventFK = '2252011'  [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T11:50:10+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT sta.tournamentFK,sta.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND par.eventFK = '2252011'  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T11:50:22+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT sta.* FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id INNER JOIN tournament_stage as sta on sta.tournamentFK = tournament.id INNER JOIN event on event.Tournament_stageFK = sta.id INNER JOIN event_participants as par on par.eventFK = event.id  WHERE sport.id = '1' AND par.eventFK = '2252011'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T14:35:41+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0110s ]
+SQL: SELECT `objectFK` FROM `statistic`  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T14:36:16+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+SQL: SELECT `objectFK` FROM `statistic`  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T14:36:55+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+SQL: SELECT `objectFK` FROM `statistic` WHERE statistic.id = '788850'  [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-08-17T14:37:04+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+SQL: SELECT `objectFK` FROM `statistic` WHERE statistic.id = '78850'  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T14:37:13+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT `objectFK` FROM `statistic` WHERE statistic.id = '78850' LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T14:53:39+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT `objectFK` FROM `statistic` WHERE statistic.id = '78850'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T16:19:08+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT object_type.name FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4'  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T16:19:35+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: syntax error, unexpected 'join' (T_STRING)
+
+[ 2018-08-17T16:19:40+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: syntax error, unexpected 'join' (T_STRING)
+
+[ 2018-08-17T16:19:44+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+ERR: Think\Model:leftjoin方法不存在！
+
+[ 2018-08-17T16:19:45+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+ERR: Think\Model:leftjoin方法不存在！
+
+[ 2018-08-17T16:19:46+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+ERR: Think\Model:leftjoin方法不存在！
+
+[ 2018-08-17T16:25:25+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+SQL: SELECT object_type.name FROM `statistic` LEFT JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4'  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T16:25:32+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+SQL: SELECT object_type.name FROM `statistic` LEFT JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4'  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T16:25:44+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+SQL: SELECT object_type.name FROM `statistic` RIGHT JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4'  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T16:25:52+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0150s ]
+SQL: SELECT object_type.name FROM `statistic` RIGHT JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4'  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-17T16:28:48+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0150s ]
+SQL: SELECT object_type.name FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4' AND statistic.statistic_typeFK = '1'  [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T16:30:19+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT statistic.object_typeFK,statistic.statistic_typeFK,object_type.id FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4' AND statistic.statistic_typeFK = '1'  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T16:39:14+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+SQL: SELECT statistic.object_typeFK,statistic.statistic_typeFK,object_type.id FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4' AND statistic.statistic_typeFK = '1'  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-17T17:01:01+08:00 ] ::1 /tp3.2/home/index/total
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT statistic.object_typeFK,statistic.statistic_typeFK,object_type.id FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK  WHERE statistic.object_typeFK = '4' AND statistic.statistic_typeFK = '1'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

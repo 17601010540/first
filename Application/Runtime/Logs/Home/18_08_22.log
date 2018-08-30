@@ -1,0 +1,764 @@
+[ 2018-08-22T10:08:05+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+SQL: SELECT tstage.name,stype.name FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 851346 AND statistic.statistic_typeFK = 5  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T10:08:23+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name,stype.name FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 851346 AND statistic.statistic_typeFK = 5  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T10:09:07+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0130s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 851346 AND statistic.statistic_typeFK = 5  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T10:12:36+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.statisticFK = statistic.id  WHERE statistic.object_typeFK = 4 AND statistic.obj' at line 1
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,spart5.id FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5.statisticFK = statistic.id  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 851346 AND statistic.statistic_typeFK = 5 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.statisticFK = statistic.id  WHERE statistic.object_typeFK = 4 AND statistic.obj' at line 1
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,spart5.id FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5.statisticFK = statistic.id  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 851346 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T10:13:22+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,spart5.id FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 851346 AND statistic.statistic_typeFK = 5  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T10:25:09+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,spart5.id FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T10:26:26+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2018-08-22T10:26:27+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2018-08-22T10:26:35+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T11:10:32+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'sdata.statistic_participants5FK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_participants5FK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:27+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:28+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:28+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:30+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:30+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:31+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:32+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:32+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+ERR: 1054:Unknown column 'sdata.statistic_data_typeFK' in 'on clause'
+ [ SQL语句 ] : SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 
+
+[ 2018-08-22T11:13:40+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T11:15:18+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T11:39:30+08:00 ] ::1 /tp3.2/home/index/standing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tournament_stage` [ RunTime:0.0090s ]
+SQL: SELECT participant.name as pname,standing_type_param.name as stpname,standing_data.value as sdvalue FROM `tournament_stage` INNER JOIN standing on standing.objectFK = tournament_stage.id and standing.object = 'tournament_stage' INNER JOIN standing_type on standing_type.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN standing_type_param on standing_type_param.id = standing_data.standing_type_paramFK and standing_type_param.standing_typeFK = standing_type.id  WHERE tournament_stage.tournamentFK = '11943'  [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-08-22T11:40:23+08:00 ] ::1 /tp3.2/home/index/standing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tournament_stage` [ RunTime:0.0090s ]
+SQL: SELECT participant.name as pname,standing_type_param.name as stpname,standing_data.value as sdvalue FROM `tournament_stage` INNER JOIN standing on standing.objectFK = tournament_stage.id and standing.object = 'tournament_stage' INNER JOIN standing_type on standing_type.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN standing_type_param on standing_type_param.id = standing_data.standing_type_paramFK and standing_type_param.standing_typeFK = standing_type.id  WHERE tournament_stage.tournamentFK = '11943'  [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T13:56:34+08:00 ] ::1 /tp3.2/home/index/live
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event_incident` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'event_incident.type' in 'field list'
+ [ SQL语句 ] : SELECT event.name as ename,participant.name as pname,event_incident.type,event_incident.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966 
+ERR: 1054:Unknown column 'event_incident.type' in 'field list'
+ [ SQL语句 ] : SELECT event.name as ename,participant.name as pname,event_incident.type,event_incident.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966 
+
+[ 2018-08-22T13:58:08+08:00 ] ::1 /tp3.2/home/index/live
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `event_incident` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'event_incident.value' in 'field list'
+ [ SQL语句 ] : SELECT event.name as ename,participant.name as pname,event_incident.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966 
+ERR: 1054:Unknown column 'event_incident.value' in 'field list'
+ [ SQL语句 ] : SELECT event.name as ename,participant.name as pname,event_incident.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966 
+
+[ 2018-08-22T13:58:09+08:00 ] ::1 /tp3.2/home/index/live
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `event_incident` [ RunTime:0.0120s ]
+ERR: 1054:Unknown column 'event_incident.value' in 'field list'
+ [ SQL语句 ] : SELECT event.name as ename,participant.name as pname,event_incident.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966 
+ERR: 1054:Unknown column 'event_incident.value' in 'field list'
+ [ SQL语句 ] : SELECT event.name as ename,participant.name as pname,event_incident.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966 
+
+[ 2018-08-22T13:58:09+08:00 ] ::1 /tp3.2/home/index/live
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event_incident` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'event_incident.value' in 'field list'
+ [ SQL语句 ] : SELECT event.name as ename,participant.name as pname,event_incident.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966 
+ERR: 1054:Unknown column 'event_incident.value' in 'field list'
+ [ SQL语句 ] : SELECT event.name as ename,participant.name as pname,event_incident.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966 
+
+[ 2018-08-22T13:59:11+08:00 ] ::1 /tp3.2/home/index/live
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event_incident` [ RunTime:0.0090s ]
+SQL: SELECT event.name as ename,participant.name as pname FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966  [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T13:59:37+08:00 ] ::1 /tp3.2/home/index/live
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event_incident` [ RunTime:0.0090s ]
+SQL: SELECT event.name as ename,participant.name as pname,event_incident.* FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966  [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T14:00:21+08:00 ] ::1 /tp3.2/home/index/live
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `event_incident` [ RunTime:0.0080s ]
+SQL: SELECT event.name as ename,participant.name as pname,eidetail.type,eidetail.value FROM `event_incident` INNER JOIN event_incident_detail as eidetail on eidetail.event_incidentFK = event_incident.id INNER JOIN participant on participant.id = eidetail.participantFK INNER JOIN event on event.id = event_incident.eventFK  WHERE event_incident.eventFK = 2763966  [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T14:52:13+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0100s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T14:57:08+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0090s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,language.name as lname FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.0710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T14:58:22+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0090s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,country.id FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.1000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T15:00:20+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0100s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,country.id FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T15:01:04+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0100s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,language.name as lname FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.6520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T15:01:19+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0100s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,language.name as lname,country.id FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.2710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T15:01:33+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0090s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,language.name as lname FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.0680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T15:02:29+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0090s ]
+SQL: SELECT language.name as lname FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T15:02:51+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0080s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,language.name as lname FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.5070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-08-22T15:36:28+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0090s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,language.name as lname FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event'  [ RunTime:0.0780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T15:36:39+08:00 ] ::1 /tp3.2/home/index/odds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `outcome` [ RunTime:0.0090s ]
+SQL: SELECT odds_provider.name as odds_pname,odds_provider.url,event.name as ename,outcome.type,language.name as lname FROM `outcome` INNER JOIN event on event.id = outcome.objectFK INNER JOIN bettingoffer on bettingoffer.outcomeFK = outcome.id INNER JOIN odds_provider on odds_provider.id = bettingoffer.odds_providerFK INNER JOIN country on country.id = odds_provider.countryFK INNER JOIN language on language.objectFK = country.id and language.object = 'country'  WHERE outcome.objectFK = 2684710 AND outcome.object = 'event' LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T15:54:07+08:00 ] ::1 /tp3.2/home/index/standing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tournament_stage` [ RunTime:0.0080s ]
+SQL: SELECT participant.name as pname,standing_type_param.name as stpname,standing_data.value as sdvalue FROM `tournament_stage` INNER JOIN standing on standing.objectFK = tournament_stage.id and standing.object = 'tournament_stage' INNER JOIN standing_type on standing_type.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN standing_type_param on standing_type_param.id = standing_data.standing_type_paramFK and standing_type_param.standing_typeFK = standing_type.id  WHERE tournament_stage.tournamentFK = '11943'  [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T15:54:14+08:00 ] ::1 /tp3.2/home/index/standing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tournament_stage` [ RunTime:0.0100s ]
+SQL: SELECT participant.name as pname,standing_type_param.name as stpname,standing_data.value as sdvalue FROM `tournament_stage` INNER JOIN standing on standing.objectFK = tournament_stage.id and standing.object = 'tournament_stage' INNER JOIN standing_type on standing_type.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN standing_type_param on standing_type_param.id = standing_data.standing_type_paramFK and standing_type_param.standing_typeFK = standing_type.id  WHERE tournament_stage.tournamentFK = '11943'  [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T15:57:43+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T15:59:52+08:00 ] ::1 /tp3.2/home/index/third
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event_participants` [ RunTime:0.0100s ]
+SQL: SELECT result.id,language.name,event_participants.id FROM `event_participants` INNER JOIN result on result.event_participantsFK = event_participants.id INNER JOIN result_type on result_type.id = result.result_typeFK INNER JOIN language on language.objectFK = result_type.id and language.object = 'result_type'  WHERE event_participants.eventFK = '2181081'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T16:00:01+08:00 ] ::1 /tp3.2/home/index/third
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event_participants` [ RunTime:0.0100s ]
+SQL: SELECT result.id,language.name,event_participants.id FROM `event_participants` INNER JOIN result on result.event_participantsFK = event_participants.id INNER JOIN result_type on result_type.id = result.result_typeFK INNER JOIN language on language.objectFK = result_type.id and language.object = 'result_type'  WHERE event_participants.eventFK = '2181081'  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-08-22T16:09:08+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T16:11:53+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T16:16:06+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T16:16:06+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0080s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T16:16:10+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5 LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T16:22:31+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0100s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-22T16:23:05+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0110s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T17:11:06+08:00 ] ::1 /tp3.2/home/index/count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT language.name FROM `sport` INNER JOIN tournament_template as ttemp on ttemp.sportFK = sport.id INNER JOIN language on language.objectFK = ttemp.id  WHERE sport.id = 1  [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T17:12:16+08:00 ] ::1 /tp3.2/home/index/count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT language.name FROM `sport` INNER JOIN tournament_template as ttemp on ttemp.sportFK = sport.id INNER JOIN language on language.objectFK = ttemp.id and language.object = 'tournament_template'  WHERE sport.id = 1  [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T17:14:27+08:00 ] ::1 /tp3.2/home/index/count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT language.name FROM `sport` INNER JOIN tournament_template as ttemp on ttemp.sportFK = sport.id INNER JOIN language on language.objectFK = ttemp.id and language.object = 'tournament_template' and language.name = '世预赛欧洲区'  WHERE sport.id = 1  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T17:17:46+08:00 ] ::1 /tp3.2/home/index/count
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT ttemp.id FROM `sport` INNER JOIN tournament_template as ttemp on ttemp.sportFK = sport.id  WHERE sport.id = 1  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-22T17:51:21+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected '}', expecting end of file
+
+[ 2018-08-22T17:51:22+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected '}', expecting end of file
+
+[ 2018-08-22T17:51:47+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-08-22T18:05:06+08:00 ] ::1 /tp3.2/home/index/statistic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `statistic` [ RunTime:0.0090s ]
+SQL: SELECT tstage.name as tstage_name,stype.name as stype_name,participant.name as pname,sdtype.name as sdtype_name,sdata5.value FROM `statistic` INNER JOIN object_type on object_type.id = statistic.object_typeFK INNER JOIN tournament_stage as tstage on tstage.id = statistic.objectFK INNER JOIN statistic_type as stype on stype.id = statistic.statistic_typeFK INNER JOIN statistic_participants5 as spart5 on spart5.statisticFK = statistic.id INNER JOIN participant on participant.id = spart5.participantFK INNER JOIN statistic_data5 as sdata5 on sdata5.statistic_participants5FK = spart5.id INNER JOIN statistic_data_type as sdtype on sdtype.id = sdata5.statistic_data_typeFK  WHERE statistic.object_typeFK = 4 AND statistic.objectFK = 855513 AND statistic.statistic_typeFK = 5  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

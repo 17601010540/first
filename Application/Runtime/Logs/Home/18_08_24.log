@@ -1,0 +1,13 @@
+[ 2018-08-24T13:39:40+08:00 ] ::1 /tp3.2/home/index/standings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `standing` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `standing` INNER JOIN standing_type as stype on stype.id = standing.standing_typeFK INNER JOIN standing_participants on standing_participants.standingFK = standing.id INNER JOIN participant on participant.id = standing_participants.participantFK INNER JOIN standing_data on standing_data.standing_participantsFK = standing_participants.id INNER JOIN language on language.objectFK = stype.id  WHERE standing.objectFK = '854008' AND standing.object = 'tournament_stage' AND language.object = 'standing_type' LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

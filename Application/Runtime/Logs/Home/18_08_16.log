@@ -1,0 +1,483 @@
+[ 2018-08-16T09:20:18+08:00 ] ::1 /tp3.2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-16T09:25:31+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `event`  [ RunTime:7.5784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-16T09:26:14+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `event` LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T09:27:03+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `event`  [ RunTime:80.0336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T09:27:53+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `event`  [ RunTime:89.4971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-16T09:57:59+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `event` LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T09:58:21+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `event` LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:03:24+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0180s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '57' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:03:56+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:03:57+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:03:57+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0340s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:03:57+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-08-16T10:03:58+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0120s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:05:44+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:07:13+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''event_participants'  WHERE event.id = '9427' AND event_participants.eventFK = '' at line 1
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN 'event_participants'  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''event_participants'  WHERE event.id = '9427' AND event_participants.eventFK = '' at line 1
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN 'event_participants'  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id' 
+
+[ 2018-08-16T10:07:35+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0110s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:08:10+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:09:33+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:13:22+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0130s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\tp3.2\Application\Home\Controller\IndexController.class.php 第 19 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( Array ) 
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( Array ) 
+
+[ 2018-08-16T10:13:32+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+
+[ 2018-08-16T10:13:33+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+
+[ 2018-08-16T10:13:33+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+
+[ 2018-08-16T10:13:33+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+
+[ 2018-08-16T10:13:44+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+
+[ 2018-08-16T10:13:45+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+ERR: 1054:Unknown column '$condition' in 'where clause'
+ [ SQL语句 ] : SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE ( $condition ) 
+
+[ 2018-08-16T10:13:48+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants  WHERE event.id = '9427' AND event_participants.eventFK = 'event.id'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:19:01+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants on event_participants.eventFK = event.id  WHERE event.id = '9427'  [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T10:19:17+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants on event_participants.eventFK = event.id  WHERE event.id = '9427'  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-08-16T10:19:33+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants on event_participants.eventFK = event.id  WHERE event.id = '9427'  [ RunTime:0.0080s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\tp3.2\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-08-16T10:19:34+08:00 ] ::1 /tp3.2/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `event` [ RunTime:0.0090s ]
+SQL: SELECT event_participants.id FROM `event` INNER JOIN event_participants on event_participants.eventFK = event.id  WHERE event.id = '9427'  [ RunTime:0.0310s ]
+NOTIC: [8] Array to string conversion D:\wamp64\www\tp3.2\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:07:54+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE ( sport.id = 1 )  [ RunTime:0.0450s ]
+NOTIC: [8] Undefined variable: test D:\wamp64\www\tp3.2\Application\Home\Controller\IndexController.class.php 第 29 行.
+ERR: Call to a member function _sql() on unknown
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\tp3.2\Application\Home\Controller\IndexController.class.php:28) D:\wamp64\www\tp3.2\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp64\www\tp3.2\Application\Home\Controller\IndexController.class.php:28) D:\wamp64\www\tp3.2\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-08-16T11:08:16+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE ( sport.id = 1 )  [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-16T11:08:52+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE ( sport.id = 1 )  [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:08:54+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE ( sport.id = 1 )  [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:08:58+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0080s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE ( sport.id = 1 )  [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-08-16T11:08:58+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0100s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE ( sport.id = 1 )  [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-16T11:09:11+08:00 ] ::1 /tp3.2/home/index/sel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sport` [ RunTime:0.0090s ]
+SQL: SELECT tournament.id FROM `sport` INNER JOIN tournament_template as tem on tem.sportFK = sport.id INNER JOIN tournament on tournament.Tournament_templateFK = tem.id  WHERE sport.id = '1'  [ RunTime:0.0400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
